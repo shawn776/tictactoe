@@ -1,24 +1,13 @@
-C:\Users\Shawn\Desktop\OS complied\tictactoe\tictactoe.cpp:155:1: error: stray '\357' in program
- ﻿#include "stdafx.h"
- ^
-C:\Users\Shawn\Desktop\OS complied\tictactoe\tictactoe.cpp:155:2: error: stray '\273' in program
- ﻿#include "stdafx.h"
-  ^
-C:\Users\Shawn\Desktop\OS complied\tictactoe\tictactoe.cpp:155:3: error: stray '\277' in program
- ﻿#include "stdafx.h"
-   ^
-C:\Users\Shawn\Desktop\OS complied\tictactoe\tictactoe.cpp:155:4: error: stray '#' in program
- ﻿#include "stdafx.h"
-    ^
-C:\Users\Shawn\Desktop\OS complied\tictactoe\tictactoe.cpp:296:9: error: exponent has no digits
- >>>>>>> 740eabcb812e09a0013af9071c1558556666b347
-         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Shawn\Desktop\OS complied\tictactoe\tictactoe.cpp: In function 'int cpu_player()':
+C:\Users\Shawn\Desktop\OS complied\tictactoe\tictactoe.cpp:34:7: error: 'i' was not declared in this scope
+  for (i = 1; i <= 9;i++){
+       ^
 C:\Users\Shawn\Desktop\OS complied\tictactoe\tictactoe.cpp: In function 'int main(int, char**)':
-C:\Users\Shawn\Desktop\OS complied\tictactoe\tictactoe.cpp:78:6: error: no match for 'operator<<' (operand types are 'std::istream {aka std::basic_istream<char>}' and 'int')
+C:\Users\Shawn\Desktop\OS complied\tictactoe\tictactoe.cpp:87:6: error: no match for 'operator<<' (operand types are 'std::istream {aka std::basic_istream<char>}' and 'int')
   cin << choose_way;
   ~~~~^~~~~~~~~~~~~
-C:\Users\Shawn\Desktop\OS complied\tictactoe\tictactoe.cpp:78:6: note: candidate: operator<<(int, int) <built-in>
-C:\Users\Shawn\Desktop\OS complied\tictactoe\tictactoe.cpp:78:6: note:   no known conversion for argument 1 from 'std::istream {aka std::basic_istream<char>}' to 'int'
+C:\Users\Shawn\Desktop\OS complied\tictactoe\tictactoe.cpp:87:6: note: candidate: operator<<(int, int) <built-in>
+C:\Users\Shawn\Desktop\OS complied\tictactoe\tictactoe.cpp:87:6: note:   no known conversion for argument 1 from 'std::istream {aka std::basic_istream<char>}' to 'int'
 In file included from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\string:52:0,
                  from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\locale_classes.h:40,
                  from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\ios_base.h:41,
@@ -30,7 +19,7 @@ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\basic_string.h:5325:5: note: can
      operator<<(basic_ostream<_CharT, _Traits>& __os,
      ^~~~~~~~
 c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\basic_string.h:5325:5: note:   template argument deduction/substitution failed:
-C:\Users\Shawn\Desktop\OS complied\tictactoe\tictactoe.cpp:78:9: note:   'std::istream {aka std::basic_istream<char>}' is not derived from 'std::basic_ostream<_CharT, _Traits>'
+C:\Users\Shawn\Desktop\OS complied\tictactoe\tictactoe.cpp:87:9: note:   'std::istream {aka std::basic_istream<char>}' is not derived from 'std::basic_ostream<_CharT, _Traits>'
   cin << choose_way;
          ^~~~~~~~~~
 In file included from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\ios_base.h:46:0,
@@ -42,7 +31,7 @@ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\system_error:209:5: note: candidate: 
      operator<<(basic_ostream<_CharT, _Traits>& __os, const error_code& __e)
      ^~~~~~~~
 c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\system_error:209:5: note:   template argument deduction/substitution failed:
-C:\Users\Shawn\Desktop\OS complied\tictactoe\tictactoe.cpp:78:9: note:   'std::istream {aka std::basic_istream<char>}' is not derived from 'std::basic_ostream<_CharT, _Traits>'
+C:\Users\Shawn\Desktop\OS complied\tictactoe\tictactoe.cpp:87:9: note:   'std::istream {aka std::basic_istream<char>}' is not derived from 'std::basic_ostream<_CharT, _Traits>'
   cin << choose_way;
          ^~~~~~~~~~
 In file included from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream:39:0,
@@ -51,7 +40,7 @@ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:497:5: note: candidate: templ
      operator<<(basic_ostream<_CharT, _Traits>& __out, _CharT __c)
      ^~~~~~~~
 c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:497:5: note:   template argument deduction/substitution failed:
-C:\Users\Shawn\Desktop\OS complied\tictactoe\tictactoe.cpp:78:9: note:   'std::istream {aka std::basic_istream<char>}' is not derived from 'std::basic_ostream<_CharT, _Traits>'
+C:\Users\Shawn\Desktop\OS complied\tictactoe\tictactoe.cpp:87:9: note:   'std::istream {aka std::basic_istream<char>}' is not derived from 'std::basic_ostream<_CharT, _Traits>'
   cin << choose_way;
          ^~~~~~~~~~
 In file included from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream:39:0,
@@ -60,7 +49,7 @@ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:502:5: note: candidate: templ
      operator<<(basic_ostream<_CharT, _Traits>& __out, char __c)
      ^~~~~~~~
 c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:502:5: note:   template argument deduction/substitution failed:
-C:\Users\Shawn\Desktop\OS complied\tictactoe\tictactoe.cpp:78:9: note:   'std::istream {aka std::basic_istream<char>}' is not derived from 'std::basic_ostream<_CharT, _Traits>'
+C:\Users\Shawn\Desktop\OS complied\tictactoe\tictactoe.cpp:87:9: note:   'std::istream {aka std::basic_istream<char>}' is not derived from 'std::basic_ostream<_CharT, _Traits>'
   cin << choose_way;
          ^~~~~~~~~~
 In file included from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream:39:0,
@@ -69,7 +58,7 @@ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:508:5: note: candidate: templ
      operator<<(basic_ostream<char, _Traits>& __out, char __c)
      ^~~~~~~~
 c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:508:5: note:   template argument deduction/substitution failed:
-C:\Users\Shawn\Desktop\OS complied\tictactoe\tictactoe.cpp:78:9: note:   'std::istream {aka std::basic_istream<char>}' is not derived from 'std::basic_ostream<char, _Traits>'
+C:\Users\Shawn\Desktop\OS complied\tictactoe\tictactoe.cpp:87:9: note:   'std::istream {aka std::basic_istream<char>}' is not derived from 'std::basic_ostream<char, _Traits>'
   cin << choose_way;
          ^~~~~~~~~~
 In file included from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream:39:0,
@@ -78,7 +67,7 @@ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:514:5: note: candidate: templ
      operator<<(basic_ostream<char, _Traits>& __out, signed char __c)
      ^~~~~~~~
 c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:514:5: note:   template argument deduction/substitution failed:
-C:\Users\Shawn\Desktop\OS complied\tictactoe\tictactoe.cpp:78:9: note:   'std::istream {aka std::basic_istream<char>}' is not derived from 'std::basic_ostream<char, _Traits>'
+C:\Users\Shawn\Desktop\OS complied\tictactoe\tictactoe.cpp:87:9: note:   'std::istream {aka std::basic_istream<char>}' is not derived from 'std::basic_ostream<char, _Traits>'
   cin << choose_way;
          ^~~~~~~~~~
 In file included from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream:39:0,
@@ -87,7 +76,7 @@ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:519:5: note: candidate: templ
      operator<<(basic_ostream<char, _Traits>& __out, unsigned char __c)
      ^~~~~~~~
 c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:519:5: note:   template argument deduction/substitution failed:
-C:\Users\Shawn\Desktop\OS complied\tictactoe\tictactoe.cpp:78:9: note:   'std::istream {aka std::basic_istream<char>}' is not derived from 'std::basic_ostream<char, _Traits>'
+C:\Users\Shawn\Desktop\OS complied\tictactoe\tictactoe.cpp:87:9: note:   'std::istream {aka std::basic_istream<char>}' is not derived from 'std::basic_ostream<char, _Traits>'
   cin << choose_way;
          ^~~~~~~~~~
 In file included from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream:39:0,
@@ -96,7 +85,7 @@ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:539:5: note: candidate: templ
      operator<<(basic_ostream<_CharT, _Traits>& __out, const _CharT* __s)
      ^~~~~~~~
 c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:539:5: note:   template argument deduction/substitution failed:
-C:\Users\Shawn\Desktop\OS complied\tictactoe\tictactoe.cpp:78:9: note:   'std::istream {aka std::basic_istream<char>}' is not derived from 'std::basic_ostream<_CharT, _Traits>'
+C:\Users\Shawn\Desktop\OS complied\tictactoe\tictactoe.cpp:87:9: note:   'std::istream {aka std::basic_istream<char>}' is not derived from 'std::basic_ostream<_CharT, _Traits>'
   cin << choose_way;
          ^~~~~~~~~~
 In file included from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:638:0,
@@ -106,7 +95,7 @@ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\ostream.tcc:321:5: note: candida
      operator<<(basic_ostream<_CharT, _Traits>& __out, const char* __s)
      ^~~~~~~~
 c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\ostream.tcc:321:5: note:   template argument deduction/substitution failed:
-C:\Users\Shawn\Desktop\OS complied\tictactoe\tictactoe.cpp:78:9: note:   'std::istream {aka std::basic_istream<char>}' is not derived from 'std::basic_ostream<_CharT, _Traits>'
+C:\Users\Shawn\Desktop\OS complied\tictactoe\tictactoe.cpp:87:9: note:   'std::istream {aka std::basic_istream<char>}' is not derived from 'std::basic_ostream<_CharT, _Traits>'
   cin << choose_way;
          ^~~~~~~~~~
 In file included from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream:39:0,
@@ -115,7 +104,7 @@ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:556:5: note: candidate: templ
      operator<<(basic_ostream<char, _Traits>& __out, const char* __s)
      ^~~~~~~~
 c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:556:5: note:   template argument deduction/substitution failed:
-C:\Users\Shawn\Desktop\OS complied\tictactoe\tictactoe.cpp:78:9: note:   'std::istream {aka std::basic_istream<char>}' is not derived from 'std::basic_ostream<char, _Traits>'
+C:\Users\Shawn\Desktop\OS complied\tictactoe\tictactoe.cpp:87:9: note:   'std::istream {aka std::basic_istream<char>}' is not derived from 'std::basic_ostream<char, _Traits>'
   cin << choose_way;
          ^~~~~~~~~~
 In file included from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream:39:0,
@@ -124,7 +113,7 @@ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:569:5: note: candidate: templ
      operator<<(basic_ostream<char, _Traits>& __out, const signed char* __s)
      ^~~~~~~~
 c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:569:5: note:   template argument deduction/substitution failed:
-C:\Users\Shawn\Desktop\OS complied\tictactoe\tictactoe.cpp:78:9: note:   'std::istream {aka std::basic_istream<char>}' is not derived from 'std::basic_ostream<char, _Traits>'
+C:\Users\Shawn\Desktop\OS complied\tictactoe\tictactoe.cpp:87:9: note:   'std::istream {aka std::basic_istream<char>}' is not derived from 'std::basic_ostream<char, _Traits>'
   cin << choose_way;
          ^~~~~~~~~~
 In file included from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream:39:0,
@@ -133,7 +122,7 @@ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:574:5: note: candidate: templ
      operator<<(basic_ostream<char, _Traits>& __out, const unsigned char* __s)
      ^~~~~~~~
 c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:574:5: note:   template argument deduction/substitution failed:
-C:\Users\Shawn\Desktop\OS complied\tictactoe\tictactoe.cpp:78:9: note:   'std::istream {aka std::basic_istream<char>}' is not derived from 'std::basic_ostream<char, _Traits>'
+C:\Users\Shawn\Desktop\OS complied\tictactoe\tictactoe.cpp:87:9: note:   'std::istream {aka std::basic_istream<char>}' is not derived from 'std::basic_ostream<char, _Traits>'
   cin << choose_way;
          ^~~~~~~~~~
 In file included from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream:39:0,
@@ -142,7 +131,7 @@ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:628:5: note: candidate: templ
      operator<<(basic_ostream<_CharT, _Traits>&& __os, const _Tp& __x)
      ^~~~~~~~
 c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:628:5: note:   template argument deduction/substitution failed:
-C:\Users\Shawn\Desktop\OS complied\tictactoe\tictactoe.cpp:78:9: note:   'std::istream {aka std::basic_istream<char>}' is not derived from 'std::basic_ostream<_CharT, _Traits>'
+C:\Users\Shawn\Desktop\OS complied\tictactoe\tictactoe.cpp:87:9: note:   'std::istream {aka std::basic_istream<char>}' is not derived from 'std::basic_ostream<_CharT, _Traits>'
   cin << choose_way;
          ^~~~~~~~~~
 In file included from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\memory:82:0,
@@ -152,77 +141,9 @@ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\shared_ptr.h:66:5: note: candida
      operator<<(std::basic_ostream<_Ch, _Tr>& __os,
      ^~~~~~~~
 c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\shared_ptr.h:66:5: note:   template argument deduction/substitution failed:
-C:\Users\Shawn\Desktop\OS complied\tictactoe\tictactoe.cpp:78:9: note:   'std::istream {aka std::basic_istream<char>}' is not derived from 'std::basic_ostream<_CharT, _Traits>'
+C:\Users\Shawn\Desktop\OS complied\tictactoe\tictactoe.cpp:87:9: note:   'std::istream {aka std::basic_istream<char>}' is not derived from 'std::basic_ostream<_CharT, _Traits>'
   cin << choose_way;
          ^~~~~~~~~~
-C:\Users\Shawn\Desktop\OS complied\tictactoe\tictactoe.cpp:96:18: error: 'thread' was not declared in this scope
+C:\Users\Shawn\Desktop\OS complied\tictactoe\tictactoe.cpp:105:18: error: 'thread' was not declared in this scope
   thread(check_win).detach();
                   ^
-C:\Users\Shawn\Desktop\OS complied\tictactoe\tictactoe.cpp: At global scope:
-C:\Users\Shawn\Desktop\OS complied\tictactoe\tictactoe.cpp:154:1: error: version control conflict marker in file
- =======
- ^~~~~~~
-C:\Users\Shawn\Desktop\OS complied\tictactoe\tictactoe.cpp:170:18: error: redefinition of 'char square [2][10]'
- char square[2][10] = {
-                  ^
-C:\Users\Shawn\Desktop\OS complied\tictactoe\tictactoe.cpp:14:6: note: 'char square [2][10]' previously defined here
- char square[2][10] = {
-      ^~~~~~
-C:\Users\Shawn\Desktop\OS complied\tictactoe\tictactoe.cpp:178:20: error: redefinition of 'char copy_square [10]'
- char copy_square[10] = { '0','1','2','3','4','5','6','7','8','9' };
-                    ^
-C:\Users\Shawn\Desktop\OS complied\tictactoe\tictactoe.cpp:22:6: note: 'char copy_square [10]' previously defined here
- char copy_square[10] = { '0','1','2','3','4','5','6','7','8','9' };
-      ^~~~~~~~~~~
-C:\Users\Shawn\Desktop\OS complied\tictactoe\tictactoe.cpp:181:5: error: redefinition of 'int check_winner'
- int check_winner = 0;
-     ^~~~~~~~~~~~
-C:\Users\Shawn\Desktop\OS complied\tictactoe\tictactoe.cpp:24:5: note: 'int check_winner' previously defined here
- int check_winner = 0;
-     ^~~~~~~~~~~~
-C:\Users\Shawn\Desktop\OS complied\tictactoe\tictactoe.cpp:182:5: error: redefinition of 'int choice'
- int choice;
-     ^~~~~~
-C:\Users\Shawn\Desktop\OS complied\tictactoe\tictactoe.cpp:25:5: note: 'int choice' previously declared here
- int choice;
-     ^~~~~~
-C:\Users\Shawn\Desktop\OS complied\tictactoe\tictactoe.cpp:184:8: error: redefinition of 'std::__cxx11::string player_first_name'
- string player_first_name;
-        ^~~~~~~~~~~~~~~~~
-C:\Users\Shawn\Desktop\OS complied\tictactoe\tictactoe.cpp:28:8: note: 'std::__cxx11::string player_first_name' previously declared here
- string player_first_name;
-        ^~~~~~~~~~~~~~~~~
-C:\Users\Shawn\Desktop\OS complied\tictactoe\tictactoe.cpp:185:8: error: redefinition of 'std::__cxx11::string player_second_name'
- string player_second_name;
-        ^~~~~~~~~~~~~~~~~~
-C:\Users\Shawn\Desktop\OS complied\tictactoe\tictactoe.cpp:29:8: note: 'std::__cxx11::string player_second_name' previously declared here
- string player_second_name;
-        ^~~~~~~~~~~~~~~~~~
-C:\Users\Shawn\Desktop\OS complied\tictactoe\tictactoe.cpp: In function 'void check_win()':
-C:\Users\Shawn\Desktop\OS complied\tictactoe\tictactoe.cpp:186:6: error: redefinition of 'void check_win()'
- void check_win() {
-      ^~~~~~~~~
-C:\Users\Shawn\Desktop\OS complied\tictactoe\tictactoe.cpp:34:6: note: 'void check_win()' previously defined here
- void check_win() {
-      ^~~~~~~~~
-C:\Users\Shawn\Desktop\OS complied\tictactoe\tictactoe.cpp: In function 'int main(int, char**)':
-C:\Users\Shawn\Desktop\OS complied\tictactoe\tictactoe.cpp:224:5: error: redefinition of 'int main(int, char**)'
- int main(int argc, char** argv) {
-     ^~~~
-C:\Users\Shawn\Desktop\OS complied\tictactoe\tictactoe.cpp:72:5: note: 'int main(int, char**)' previously defined here
- int main(int argc, char** argv) {
-     ^~~~
-C:\Users\Shawn\Desktop\OS complied\tictactoe\tictactoe.cpp:238:18: error: 'thread' was not declared in this scope
-  thread(check_win).detach();
-                  ^
-C:\Users\Shawn\Desktop\OS complied\tictactoe\tictactoe.cpp: In function 'void board()':
-C:\Users\Shawn\Desktop\OS complied\tictactoe\tictactoe.cpp:288:6: error: redefinition of 'void board()'
- void board() {
-      ^~~~~
-C:\Users\Shawn\Desktop\OS complied\tictactoe\tictactoe.cpp:146:6: note: 'void board()' previously defined here
- void board() {
-      ^~~~~
-C:\Users\Shawn\Desktop\OS complied\tictactoe\tictactoe.cpp: At global scope:
-C:\Users\Shawn\Desktop\OS complied\tictactoe\tictactoe.cpp:296:1: error: version control conflict marker in file
- >>>>>>> 740eabcb812e09a0013af9071c1558556666b347
- ^~~~~~~
