@@ -1,0 +1,90 @@
+C:\Users\Shawn\Desktop\OS complied\tictactoe\tictactoe.cpp:151:1: error: stray '\357' in program
+ ﻿#include "stdafx.h"
+ ^
+C:\Users\Shawn\Desktop\OS complied\tictactoe\tictactoe.cpp:151:2: error: stray '\273' in program
+ ﻿#include "stdafx.h"
+  ^
+C:\Users\Shawn\Desktop\OS complied\tictactoe\tictactoe.cpp:151:3: error: stray '\277' in program
+ ﻿#include "stdafx.h"
+   ^
+C:\Users\Shawn\Desktop\OS complied\tictactoe\tictactoe.cpp:151:4: error: stray '#' in program
+ ﻿#include "stdafx.h"
+    ^
+C:\Users\Shawn\Desktop\OS complied\tictactoe\tictactoe.cpp:292:9: error: exponent has no digits
+ >>>>>>> 740eabcb812e09a0013af9071c1558556666b347
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\Shawn\Desktop\OS complied\tictactoe\tictactoe.cpp: In function 'int main(int, char**)':
+C:\Users\Shawn\Desktop\OS complied\tictactoe\tictactoe.cpp:79:10: error: expected '(' before '{' token
+  }else if{
+          ^
+C:\Users\Shawn\Desktop\OS complied\tictactoe\tictactoe.cpp:92:18: error: 'thread' was not declared in this scope
+  thread(check_win).detach();
+                  ^
+C:\Users\Shawn\Desktop\OS complied\tictactoe\tictactoe.cpp: At global scope:
+C:\Users\Shawn\Desktop\OS complied\tictactoe\tictactoe.cpp:150:1: error: version control conflict marker in file
+ =======
+ ^~~~~~~
+C:\Users\Shawn\Desktop\OS complied\tictactoe\tictactoe.cpp:166:18: error: redefinition of 'char square [2][10]'
+ char square[2][10] = {
+                  ^
+C:\Users\Shawn\Desktop\OS complied\tictactoe\tictactoe.cpp:14:6: note: 'char square [2][10]' previously defined here
+ char square[2][10] = {
+      ^~~~~~
+C:\Users\Shawn\Desktop\OS complied\tictactoe\tictactoe.cpp:174:20: error: redefinition of 'char copy_square [10]'
+ char copy_square[10] = { '0','1','2','3','4','5','6','7','8','9' };
+                    ^
+C:\Users\Shawn\Desktop\OS complied\tictactoe\tictactoe.cpp:22:6: note: 'char copy_square [10]' previously defined here
+ char copy_square[10] = { '0','1','2','3','4','5','6','7','8','9' };
+      ^~~~~~~~~~~
+C:\Users\Shawn\Desktop\OS complied\tictactoe\tictactoe.cpp:177:5: error: redefinition of 'int check_winner'
+ int check_winner = 0;
+     ^~~~~~~~~~~~
+C:\Users\Shawn\Desktop\OS complied\tictactoe\tictactoe.cpp:24:5: note: 'int check_winner' previously defined here
+ int check_winner = 0;
+     ^~~~~~~~~~~~
+C:\Users\Shawn\Desktop\OS complied\tictactoe\tictactoe.cpp:178:5: error: redefinition of 'int choice'
+ int choice;
+     ^~~~~~
+C:\Users\Shawn\Desktop\OS complied\tictactoe\tictactoe.cpp:25:5: note: 'int choice' previously declared here
+ int choice;
+     ^~~~~~
+C:\Users\Shawn\Desktop\OS complied\tictactoe\tictactoe.cpp:180:8: error: redefinition of 'std::__cxx11::string player_first_name'
+ string player_first_name;
+        ^~~~~~~~~~~~~~~~~
+C:\Users\Shawn\Desktop\OS complied\tictactoe\tictactoe.cpp:32:8: note: 'std::__cxx11::string player_first_name' previously declared here
+ string player_first_name;
+        ^~~~~~~~~~~~~~~~~
+C:\Users\Shawn\Desktop\OS complied\tictactoe\tictactoe.cpp:181:8: error: redefinition of 'std::__cxx11::string player_second_name'
+ string player_second_name;
+        ^~~~~~~~~~~~~~~~~~
+C:\Users\Shawn\Desktop\OS complied\tictactoe\tictactoe.cpp:33:8: note: 'std::__cxx11::string player_second_name' previously declared here
+ string player_second_name;
+        ^~~~~~~~~~~~~~~~~~
+C:\Users\Shawn\Desktop\OS complied\tictactoe\tictactoe.cpp: In function 'void check_win()':
+C:\Users\Shawn\Desktop\OS complied\tictactoe\tictactoe.cpp:182:6: error: redefinition of 'void check_win()'
+ void check_win() {
+      ^~~~~~~~~
+C:\Users\Shawn\Desktop\OS complied\tictactoe\tictactoe.cpp:34:6: note: 'void check_win()' previously defined here
+ void check_win() {
+      ^~~~~~~~~
+C:\Users\Shawn\Desktop\OS complied\tictactoe\tictactoe.cpp: In function 'int main(int, char**)':
+C:\Users\Shawn\Desktop\OS complied\tictactoe\tictactoe.cpp:220:5: error: redefinition of 'int main(int, char**)'
+ int main(int argc, char** argv) {
+     ^~~~
+C:\Users\Shawn\Desktop\OS complied\tictactoe\tictactoe.cpp:72:5: note: 'int main(int, char**)' previously defined here
+ int main(int argc, char** argv) {
+     ^~~~
+C:\Users\Shawn\Desktop\OS complied\tictactoe\tictactoe.cpp:234:18: error: 'thread' was not declared in this scope
+  thread(check_win).detach();
+                  ^
+C:\Users\Shawn\Desktop\OS complied\tictactoe\tictactoe.cpp: In function 'void board()':
+C:\Users\Shawn\Desktop\OS complied\tictactoe\tictactoe.cpp:284:6: error: redefinition of 'void board()'
+ void board() {
+      ^~~~~
+C:\Users\Shawn\Desktop\OS complied\tictactoe\tictactoe.cpp:142:6: note: 'void board()' previously defined here
+ void board() {
+      ^~~~~
+C:\Users\Shawn\Desktop\OS complied\tictactoe\tictactoe.cpp: At global scope:
+C:\Users\Shawn\Desktop\OS complied\tictactoe\tictactoe.cpp:292:1: error: version control conflict marker in file
+ >>>>>>> 740eabcb812e09a0013af9071c1558556666b347
+ ^~~~~~~

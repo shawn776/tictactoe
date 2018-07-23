@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-﻿#include "stdafx.h"
-
 #include <iostream>
 #include <stdlib.h>
 #include <string>
@@ -226,7 +223,7 @@ int main(int argc, char** argv) {
 	cin >> player_first_name;
 	cout << "Second player name (X): " << endl;
 	cin >> player_second_name;
-	
+
 	//First Turn is random
 	int turn = rand() % 2 + 1;
 	//Game status
@@ -246,7 +243,7 @@ int main(int argc, char** argv) {
 			turn_of = player_second_name;
 			turn_of_ox = 'X';
 		}
-		// Make this for future update lololololololololol or never 
+		// Make this for future update lololololololololol or never
 		PlayerTurn:
 
 		system("cls");
@@ -285,7 +282,7 @@ int main(int argc, char** argv) {
 }
 // Game_Map 3x3
 void board() {
-	//Map and some credits (for fun because this game is opem source :D ):D :D :D :D :D :D 
+	//Map and some credits (for fun because this game is opem source :D ):D :D :D :D :D :D
 	cout << "\t\t\t-------------" << endl;
 	cout << "\t\t\t" << "| " << square[2][1] << " | " << square[2][2] << " | " << square[2][3] << " |\tTicTacToe" << endl;
 	cout << "\t\t\t" << "| " << square[2][4] << " | " << square[2][5] << " | " << square[2][6] << " |\tProgrammed by Nguyen Minh Nhan" << endl;
