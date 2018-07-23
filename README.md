@@ -1,2 +1,2 @@
 # tictactoe
-This is my first program i 100% completed. can have bugs :D.
+This is my first program i does 100% completed. Maybe have somes bug :D.
