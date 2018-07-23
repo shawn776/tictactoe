@@ -29,7 +29,7 @@ string player_first_name;
 string player_second_name;
 // Func here
 void cpu_player()	{
-
+	//CPU
 }
 void check_win() {
 	//This will be run in another thread for check who is the winner
