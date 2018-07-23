@@ -28,11 +28,20 @@ void board();
 string player_first_name;
 string player_second_name;
 // Func here
-void cpu_player()	{
+int cpu_player()	{
 	//CPU
+	int cpu_choice = rand() % 9 + 1;
+	for (i = 1; i <= 9;i++){
+		if (cpu_choice == square[2][i]){
+			return cpu_choice;
+		}else{
+			int cpu_choice = rand() % 9 + 1;
+		}
+	}
+	return cpu_choice;
 }
 void check_win() {
-	//This will be run in another thread for check who is the winner
+	//This will need to run in another thread for check who is the winner
 	while (true) {
 		// Check columns
 		if (square[2][1] == square[2][4] and square[2][4] == square[2][7]) {
@@ -79,6 +88,7 @@ int main(int argc, char** argv) {
 	// Setup the game
 	switch (choose_way) {
 		case 1:
+			player_second_name = "Bot ";
 			cpu_player();
 		case 2:
 			cout << "First player name (O): " << endl;
@@ -94,7 +104,7 @@ int main(int argc, char** argv) {
 
 	// Start thread that will run check_win func
 	thread(check_win).detach();
-
+	//Game loop
 	while (true) {
 		// Set player stat
 		if (turn == 1) {
