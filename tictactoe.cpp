@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-﻿#include "stdafx.h"
-
 #include <iostream>
 #include <stdlib.h>
 #include <string>
@@ -27,13 +24,13 @@ char copy_square[10] = { '0','1','2','3','4','5','6','7','8','9' };
 int check_winner = 0;
 int choice;
 void board();
-
-void computer_Player(){
-
-}
 // Variable for set player name
 string player_first_name;
 string player_second_name;
+// Func here
+void cpu_player()	{
+
+}
 void check_win() {
 	//This will be run in another thread for check who is the winner
 	while (true) {
@@ -73,17 +70,21 @@ void check_win() {
 	}
 }
 int main(int argc, char** argv) {
-	int choose_cpu;
+	int choose_way;
 	cout << "Choose your way" << endl;
-	cout << "1. Play with bot"<< endl;
-	cout << "2. Two player" 	<<endl;
-	if (choose_cpu == 1){
-		player_second_name == "Bot";
-	}else if{
-		cout << "First player name (O): " << endl;
-		cin >> player_first_name;
-		cout << "Second player name (X): " << endl;
-		cin >> player_second_name;
+	cout << "1. Play with bot" << endl;
+	cout << "2. Two player" << endl;
+	cout << "Your choice: ";
+	cin << choose_way;
+	// Setup the game
+	switch (choose_way) {
+		case 1:
+			cpu_player();
+		case 2:
+			cout << "First player name (O): " << endl;
+			cin >> player_first_name;
+			cout << "Second player name (X): " << endl;
+			cin >> player_second_name;
 	}
 	//First Turn is random
 	int turn = rand() % 2 + 1;
@@ -226,7 +227,7 @@ int main(int argc, char** argv) {
 	cin >> player_first_name;
 	cout << "Second player name (X): " << endl;
 	cin >> player_second_name;
-	
+
 	//First Turn is random
 	int turn = rand() % 2 + 1;
 	//Game status
@@ -246,7 +247,7 @@ int main(int argc, char** argv) {
 			turn_of = player_second_name;
 			turn_of_ox = 'X';
 		}
-		// Make this for future update lololololololololol or never 
+		// Make this for future update lololololololololol or never
 		PlayerTurn:
 
 		system("cls");
@@ -285,7 +286,7 @@ int main(int argc, char** argv) {
 }
 // Game_Map 3x3
 void board() {
-	//Map and some credits (for fun because this game is opem source :D ):D :D :D :D :D :D 
+	//Map and some credits (for fun because this game is opem source :D ):D :D :D :D :D :D
 	cout << "\t\t\t-------------" << endl;
 	cout << "\t\t\t" << "| " << square[2][1] << " | " << square[2][2] << " | " << square[2][3] << " |\tTicTacToe" << endl;
 	cout << "\t\t\t" << "| " << square[2][4] << " | " << square[2][5] << " | " << square[2][6] << " |\tProgrammed by Nguyen Minh Nhan" << endl;
