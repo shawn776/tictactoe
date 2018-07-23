@@ -31,7 +31,7 @@ string player_second_name;
 int cpu_player()	{
 	//CPU
 	int cpu_choice = rand() % 9 + 1;
-	for (i = 1; i <= 9;i++){
+	for (int i = 1; i <= 9;i++){
 		if (cpu_choice == square[2][i]){
 			return cpu_choice;
 		}else{
@@ -114,8 +114,6 @@ int main(int argc, char** argv) {
 			turn_of = player_second_name;
 			turn_of_ox = 'X';
 		}
-		// Make this for future update lololololololololol or never
-		PlayerTurn:
 
 		system("cls");
 
