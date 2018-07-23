@@ -88,8 +88,7 @@ int main(int argc, char** argv) {
 	// Setup the game
 	switch (choose_way) {
 		case 1:
-			player_second_name = "Bot ";
-			cpu_player();
+			player_second_name = "Bot";
 		case 2:
 			cout << "First player name (O): " << endl;
 			cin >> player_first_name;
@@ -126,7 +125,8 @@ int main(int argc, char** argv) {
 		if (check_winner == 1) {
 			break;
 		}
-		cin >> choice;
+		if(turn_of != "Bot") cin >> choice;
+		else choice = cpu_player();
 		/* We need somethings to handle when someone type wrong choice
 		Example: If choice is not 1,2,3,4,5,6,7,8,9 , program will need to goto PlayerTurn:
 		PS: Maybe I Update it or nerver
