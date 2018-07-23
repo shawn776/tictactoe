@@ -150,7 +150,7 @@ int main(int argc, char** argv) {
 		}
 	}
 	cout << endl << "Winner is : " << turn_of << endl;
-
+	system("pause");
 	return 0;
 }
 // Game_Map 3x3
